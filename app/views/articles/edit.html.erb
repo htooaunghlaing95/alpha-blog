@@ -1,4 +1,4 @@
-<h1>Create an article.</h1>
+<h1>Edit existing article.</h1>
 
 <% if @article.errors.any? %>
   <h2>The following errors preventing from creating.</h2>
@@ -7,7 +7,7 @@
       <li><%= msg %></li>
     <% end %>
   </ul>
-  <% end %>
+<% end %>
 
 <%= form_for @article do |f| %>
 
